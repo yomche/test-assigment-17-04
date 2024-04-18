@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Задание
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Нужно создать страницу выдачи билетов с фильтрами (как на макете ниже).
 
-Currently, two official plugins are available:
+Необходимо выполнить следующие задания:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Рендер билетов (#task1). Используйте React для того, чтобы отрисовать билеты с данными, сортированные по цене, из файла tickets.json
+- Фильтрация билетов (#task2). Фильтрация билетов в выдаче по количеству пересадок.
 
-## Expanding the ESLint configuration
+При выполнении задач должны быть соблюдены условия:
+- Используйте JavaScript/TypeScript;
+- Работоспособность в браузерах: IE 11, Chrome;
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Для удобства можно воспользоваться любыми вспомогательными библиотеками. Соответствие примерному макету на картинке и любые дополнительные функции приложения приветствуются.
+![image](https://github.com/yomche/test-assigment-17-04/assets/31934798/0ae2663b-db6f-49ef-83d3-2d2dfb50b96b)
 
-- Configure the top-level `parserOptions` property like this:
+## Демо-версия
+Рабочую версию можно посмотреть на [GitHub Pages](https://yomche.github.io/test-assigment-17-04/)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+
+
+
+
+
